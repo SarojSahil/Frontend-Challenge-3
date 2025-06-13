@@ -43,15 +43,14 @@ html {
 .container {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: var(--off-white);
 }
 
 .newsletter {
   max-width: 800px;
   margin: 0rem 1rem;
+  margin: auto;
+  padding: 1rem;
 }
 
 .newsletter .header {
@@ -60,7 +59,7 @@ html {
 }
 
 .newsletter .header .image {
-  margin: auto;
+  margin: 1rem auto 0rem;
   display: block;
 }
 
@@ -83,7 +82,7 @@ html {
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 3px 3px 5px var(--light-gray);
-  margin: 0rem auto;
+  margin: auto;
   max-width: 550px;
   background-color: var(--white);
 }
@@ -129,14 +128,8 @@ html {
   padding-top: 0.5rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 640px) {
   html {
     font-size: 0.8rem;
   }
-}
-
-@media screen and (max-width: 640px) {
-  html {
-    font-size: 0.7rem;
-  }
-}
+} 
